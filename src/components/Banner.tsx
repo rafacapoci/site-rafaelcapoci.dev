@@ -17,6 +17,7 @@ export default function Banner() {
                 <p className="px-3">Tailwind</p>
                 <p className="px-3">HTML</p>
                 <p className="px-3">Laravel</p>
+                <p className="px-3">GitHub</p>
             </div>
         </div>
     );
