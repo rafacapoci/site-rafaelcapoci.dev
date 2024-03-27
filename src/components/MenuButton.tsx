@@ -10,7 +10,7 @@ export default function MenuButton() {
     return (
         <div onScroll={() => setIsOpen(false)} onScrollCapture={() => setIsOpen(false)}>
 
-            <button className="ml-6 p-2 text-2xl" onClick={() => setIsOpen(!isOpen)}>
+            <button className="ml-6 p-2 text-2xl lg:text-5xl" onClick={() => setIsOpen(!isOpen)}>
                 { isOpen ? <RiCloseFill /> : <RiMenu2Fill /> }
             </button>
 

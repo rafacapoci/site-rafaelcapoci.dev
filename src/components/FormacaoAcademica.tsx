@@ -1,10 +1,11 @@
 import BlocoFormacao from "./BlocoFormacao";
+import TituloBloco from "./TituloBloco";
 
 export default function FormacaoAcademica() {
     return(
-        <div id="formacao" className="text-black px-8 pt-20 pb-20 bg-black/10">
-            <p className="text-3xl font-bold mb-8">Formação Academica</p>
-            <div className="flex flex-row overflow-scroll">
+        <div id="formacao" className="text-black px-8 pt-20 lg:pt-60 pb-20 lg:pb-60 bg-black/10 lg:flex lg:flex-col lg:items-center">
+            <TituloBloco titulo={"Formação Academica"} />
+            <div className="flex flex-row overflow-scroll lg:max-w-screen-xl lg:overflow-y-hidden">
                 <BlocoFormacao 
                     titulo={"IFPR - Tecnologia da Informação"} 
                     texto={"Iniciado no ano de 2017, não cheguei a concluir este curso pois prestei vestibular e passei para iniciar no ano seguinte."} 

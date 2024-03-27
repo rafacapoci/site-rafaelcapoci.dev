@@ -6,7 +6,7 @@ export default function HeaderMenu() {
             <div>
                 <MenuButton />
             </div>
-            <div className="text-2xl font-bold mr-8">
+            <div className="text-2xl font-bold mr-8 lg:text-6xl">
                 rafaelcapoci.dev
             </div>
         </div>

@@ -10,8 +10,8 @@ type BlocoExperienciaProps = {
 export default function BlocoCurriculo({numero, titulo, link, texto}: BlocoExperienciaProps) {
     return (
         <div className="mb-20">
-            <p className="text-lg mb-2">{numero}</p>
-            <p className="mb-8 text-2xl font-semibold">{titulo}</p>
+            <p className="text-lg mb-2 lg:text-2xl">{numero}</p>
+            <p className="mb-8 text-2xl font-semibold lg:text-3xl">{titulo}</p>
             <Link target="_blank" className="text-lg outline outline-1 outline-white p-4 rounded-lg" href={link ? link : "#"}>
                 {texto}
             </Link>
